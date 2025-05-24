@@ -1,24 +1,27 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Interview Rails App
 
-Things you may want to cover:
+This is a Ruby on Rails application using SQLite3 as the development and test database. This guide will help you get set up and running quickly.
 
-* Ruby version
+## 🚀 Requirements
 
-* System dependencies
+- Ruby 3.1.0 (Check with `ruby -v`)
+- Rails 7.2.2 (Check with `rails -v`)
+- SQLite3
+- Bundler (`gem install bundler` if not already installed)
 
-* Configuration
+## 📦 Setup Instructions
 
-* Database creation
+### 1. Clone the Repository
 
-* Database initialization
+```bash
+git clone git@github.com:anishraheja/interview-rails-app.git
+cd interview-rails-app
 
-* How to run the test suite
+### 2. Intall gems
+bundle install
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### 3. Set Up the Database
+rails db:create
+rails db:migrate
